@@ -2,4 +2,4 @@ rootProject.name = 'foobarbaz'
 
 include ':server'
 include ':service:one:impl'
-include ':service:two:impl'
+include ':service:two:impl2'

@@ -4,7 +4,7 @@ plugins {
 
 dependencies {
     implementation(project(':service:one:impl'))
-    implementation(project(':service:two:impl'))
+    implementation(project(':service:two:impl2'))
 }
 
 application {
