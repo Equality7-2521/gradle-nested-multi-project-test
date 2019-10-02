@@ -1,0 +1,12 @@
+plugins {
+    application
+}
+
+dependencies {
+    implementation(project(":service:one:impl"))
+    implementation(project(":service:two:impl"))
+}
+
+application {
+    mainClassName = "foobarbaz.server.MainKt"
+}
